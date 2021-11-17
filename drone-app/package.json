@@ -23,7 +23,8 @@
     "@ionic-native/camera-preview": "^5.36.0",
     "@ionic-native/core": "^5.36.0",
     "@ionic/angular": "^5.5.2",
-    "nipplejs": "^0.9.0",
+    "cordova-res": "^0.15.3",
+    "ngx-joystick": "^1.0.2",
     "rxjs": "~6.6.0",
     "tslib": "^2.2.0",
     "zone.js": "~0.11.4"

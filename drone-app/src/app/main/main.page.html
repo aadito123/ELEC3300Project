@@ -16,6 +16,11 @@
     </ion-tab-button>
   </ion-tab-bar>
 </ion-tabs> -->
-<ion-card>
-    <div style="position: relative; left: 0; top: 0; min-height: 200px; background-color: #dddddd" id="zone_joystick"></div>
-</ion-card>
+<ion-content [fullscreen]="true" [ngClass]="{'custom-ion-content': isToBack}">
+    <ion-item style="width: 150px; height: 150px; background: transparent; position: absolute; bottom: 15px; left: 15px;">
+        <div style="position: relative; left: 0px; top: 0px; width: 150px; height: 150px;" id="zone_joystick1"></div>
+    </ion-item>
+    <ion-item style="width: 150px; height: 150px; background: transparent; position: absolute; bottom: 15px; right: 15px;">
+        <div style="position: relative; left: 0px; top: 0px; width: 150px; height: 150px;" id="zone_joystick2"></div>
+    </ion-item>
+</ion-content>
